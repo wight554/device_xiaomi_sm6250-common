@@ -94,6 +94,11 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 
+ODM_MANIFEST_SKUS += \
+    joyeuse
+
+ODM_MANIFEST_JOYEUSE_FILES := $(COMMON_PATH)/manifest_joyeuse.xml
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_xiaomi_sm6250
 TARGET_RECOVERY_DEVICE_MODULES := libinit_xiaomi_sm6250

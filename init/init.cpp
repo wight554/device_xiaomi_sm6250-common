@@ -145,6 +145,7 @@ void load_device_properties() {
                 "Redmi/joyeuse_global/joyeuse:10/QKQ1.191215.002/V11.0.5.0.QJZMIXM:user/release-keys",
                 "joeyse_global-user 10 QKQ1.191215.002 V11.0.5.0.QJZMIXM release-keys",
                 "Redmi", "joyeuse", "Redmi Note 9 Pro");
+        property_override("ro.boot.product.hardware.sku", "joyeuse");
     }
 }
 
