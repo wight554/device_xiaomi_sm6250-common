@@ -96,6 +96,9 @@ vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so
 
+# NFC
+vendor/lib/libpn553_fw.so|a8e29cc3ebb2e0df0fb505fc2da9c69a015680fb
+
 # Permissions
 etc/permissions/privapp-permissions-qti.xml
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml
