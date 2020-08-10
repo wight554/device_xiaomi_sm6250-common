@@ -275,3 +275,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Gapps
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
