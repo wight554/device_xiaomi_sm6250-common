@@ -740,3 +740,19 @@ service audioshell_service /vendor/bin/audioshell_service
 on property:ro.vendor.miui.region=*
     start audioshell_service
 #2019.11.25 longcheer puqirui add for misound MIUI patch end
+
+service thermal-engine /vendor/bin/thermal-engine
+    class main
+    user root
+    group root
+    socket thermal-send-client stream 0660 system oem_2907
+    socket thermal-recv-client stream 0660 system oem_2907
+    socket thermal-recv-passive-client stream 0660 system oem_2907
+    socket thermal-send-rule stream 0660 system oem_2907
+    disabled
+
+on boot && property:ro.product.vendor.device=*
+    copy /vendor/etc/thermal-engine-map-${ro.product.vendor.device}.conf /data/vendor/thermal/config/thermal-engine-map.conf
+    chown root system /data/vendor/thermal/config/thermal-engine-map.conf
+    chmod 0771 /data/vendor/thermal/config/thermal-engine-map.conf
+    start thermal-engine
