@@ -1,3 +1,39 @@
+# Camera sensors - curtana & gram
+vendor/lib/camera/com.qti.sensormodule.ofilm_gc02m1_filter.bin
+vendor/lib/camera/com.qti.sensormodule.ofilm_s5kgm2.bin
+vendor/lib/camera/com.qti.sensormodule.sunny_imx582.bin
+vendor/lib/camera/com.qti.sensormodule.sunny_s5kgm2.bin
+vendor/lib/camera/com.qti.tuned.ofilm_gc02m1.bin
+vendor/lib/camera/com.qti.tuned.ofilm_gc02m1_filter.bin
+vendor/lib/camera/com.qti.tuned.ofilm_s5kgm2.bin
+vendor/lib/camera/com.qti.tuned.sunny_imx582.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_gc02m1_filter.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgm2.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_imx582.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgm2.bin
+vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1.bin
+vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1_filter.bin
+vendor/lib64/camera/com.qti.tuned.ofilm_s5kgm2.bin
+vendor/lib64/camera/com.qti.tuned.sunny_imx582.bin
+
+# Camera sensors - excalibur & joyeuse
+vendor/lib/camera/com.qti.sensormodule.ofilm_s5kgw1.bin
+vendor/lib/camera/com.qti.sensormodule.ofilm_s5kgw1_mirrorflip.bin
+vendor/lib/camera/com.qti.sensormodule.sunny_ov32a1q.bin
+vendor/lib/camera/com.qti.sensormodule.sunny_s5kgw1.bin
+vendor/lib/camera/com.qti.sensormodule.sunny_s5kgw1_mirrorflip.bin
+vendor/lib/camera/com.qti.tuned.ofilm_s5kgw1.bin
+vendor/lib/camera/com.qti.tuned.sunny_gc02m1.bin
+vendor/lib/camera/com.qti.tuned.sunny_s5kgw1.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1_mirrorflip.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_ov32a1q.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1_mirrorflip.bin
+vendor/lib64/camera/com.qti.tuned.ofilm_s5kgw1.bin
+vendor/lib64/camera/com.qti.tuned.sunny_gc02m1.bin
+vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin
+
 # DPM
 product/bin/dpmd
 product/etc/dpm/dpm.conf
