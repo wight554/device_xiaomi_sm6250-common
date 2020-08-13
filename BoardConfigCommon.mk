@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-COMMON_PATH := device/xiaomi/sm6250-common
+COMMON_PATH := device/xiaomi/xiaomi_sm6250
 
 BUILD_BROKEN_DUP_RULES := true
 

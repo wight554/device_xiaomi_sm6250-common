@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, device/xiaomi/sm6250-common/common.mk)
+$(call inherit-product, device/xiaomi/xiaomi_sm6250/common.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_xiaomi_sm6250

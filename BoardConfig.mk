@@ -5,6 +5,6 @@
 #
 
 # Inherit from sm6250-common
--include device/xiaomi/sm6250-common/BoardConfigCommon.mk
+-include device/xiaomi/xiaomi_sm6250/BoardConfigCommon.mk
 
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse
