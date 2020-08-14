@@ -752,7 +752,5 @@ service thermal-engine /vendor/bin/thermal-engine
     disabled
 
 on boot && property:ro.product.vendor.device=*
-    copy /vendor/etc/thermal-engine-map-${ro.product.vendor.device}.conf /data/vendor/thermal/config/thermal-engine-map.conf
-    chown root system /data/vendor/thermal/config/thermal-engine-map.conf
-    chmod 0771 /data/vendor/thermal/config/thermal-engine-map.conf
+    mount none /vendor/etc/thermal-engine-map-${ro.product.vendor.device}.conf /vendor/etc/thermal-engine-map.conf bind
     start thermal-engine
