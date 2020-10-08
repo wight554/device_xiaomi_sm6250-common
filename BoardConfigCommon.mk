@@ -27,6 +27,10 @@ AUDIO_FEATURE_ENABLED_HDMI_SPK := true
 AUDIO_FEATURE_ENABLED_PROXY_DEVICE := true
 #AUDIO_FEATURE_ENABLED_AHAL_EXT := true
 
+AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true
+BOARD_SUPPORTS_SOUND_TRIGGER := true
+BOARD_USES_ALSA_AUDIO := true
+
 # Audio policy
 USE_CUSTOM_AUDIO_POLICY := 1
 USE_XML_AUDIO_POLICY_CONF := 1
@@ -170,11 +174,6 @@ VENDOR_SECURITY_PATCH := 2020-07-01
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
-
-BOARD_SEPOLICY_M4DEFS += \
-    debugfs_wlan=vendor_debugfs_wlan \
-    latency_device=vendor_latency_device \
-    sysfs_usbpd_device=vendor_sysfs_usbpd_device
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
