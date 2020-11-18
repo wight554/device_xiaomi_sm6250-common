@@ -855,7 +855,6 @@ vendor/lib/libvpphvx.so
 vendor/lib/libvpplibrary.so
 vendor/lib/libwms.so
 vendor/lib/libwqe.so
-vendor/lib/libwvhidl.so
 vendor/lib/libwvkeybox.so
 vendor/lib/libXMFD_AgeGender.so
 vendor/lib/libxml.so
