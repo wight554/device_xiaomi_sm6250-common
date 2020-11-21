@@ -57,7 +57,6 @@ function blob_fixup() {
     vendor/lib64/hw/camera.qcom.so)
         $PATCHELF --remove-needed "libMegviiFacepp-0.5.2.so" "${2}"
         $PATCHELF --remove-needed "libmegface.so" "${2}"
-        $PATCHELF --add-needed "libc++demangle.so" "${2}"
         $PATCHELF --add-needed "libshim_megvii.so" "${2}"
         ;;
     esac
